@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LUCY HOTEL</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is the description">
+         <link rel="stylesheet" href="path/to/fontawesome.min.css">
+        <link rel="stylesheet" href="styles.css" />
+        
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <h1>galonakjd</h1>
+
+
+        <div class="toppart">
+
+            <div class="amenu">
+                <a class="ali" href="#bf">Break Fast</a>
+                <a class="ali" href="#lu">Lunch</a>
+                <a class="ali" href="#di">Dinner</a>
+            </div>
+
+            <div class="search">
+                <label for="searchbox" class="is-size-5">Search</label>
+                <input class='input-mb-5' type="search" 
+                      id="searchbox" placeholder="Search Foods....">
+                      
+
+                    </div>
+               <button id="cart-off" onclick="myFunction()"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+
+
+        </div>
+        <section class="container content-section" id="cat-on">
+            
+            <h2 class="section-header" >CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+            
+        </header>
+        <section class="container content-section" id="bf" >
+            <p id="nano">nahom</p>
+            <h2 class="section-header shop-item " >Break Fast<hr></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title ">Eggs</span>
+                    <img class="shop-item-image" src="image/egg.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">100 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+
+               
+               
+                <div class="shop-item">
+                    <span class="shop-item-title ">Sausage</span>
+                    <img class="shop-item-image" src="image/Sausage.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">150 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+               
+                <div class="shop-item">
+                    <span class="shop-item-title">French<br> Toast</span>
+                    <img class="shop-item-image" src="image/french.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Breakfast<br> Sandwich</span>
+                    <img class="shop-item-image" src="image/sandwitch.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">180 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Breakfast<br> Wrap</span>
+                    <img class="shop-item-image" src="image/wrap.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">130 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+            
+                <div class="shop-item">
+                    <span class="shop-item-title">Cereal</span>
+                    <img class="shop-item-image" src="image/Cereal.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Home <br>Fries</span>
+                    <img class="shop-item-image" src="image/Fries.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">300 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Avocado<br> Toast</span>
+                    <img class="shop-item-image" src="image/avocado.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">110 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken <br>and Waffles</span>
+                    <img class="shop-item-image" src="image/waffels.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">400 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>    
+              
+                <div class="shop-item">
+                    <span class="shop-item-title">Pancakes</span>
+                    <img class="shop-item-image" src="image/Pancakes.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">100 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Bacon</span>
+                    <img class="shop-item-image" src="image/Bacon.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Steak</span>
+                    <img class="shop-item-image" src="image/Steak.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">400 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Ham</span>
+                    <img class="shop-item-image" src="image/ham.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">300 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="container content-section"id="lu" >
+            <p id="cana">nahom</p>
+            <h2 class="section-header shop-item" >Lunch<hr></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title ">Butter<br>Chicken</span>
+                    <img class="shop-item-image" src="image/butter.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">500 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+               
+                <div class="shop-item">
+                    <span class="shop-item-title ">Zucchini<br>Slice</span>
+                    <img class="shop-item-image" src="image/Zucchini.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">150 ETB </span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+               
+                <div class="shop-item">
+                    <span class="shop-item-title">Fried<br>Rice</span>
+                    <img class="shop-item-image" src="image/fried.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">beef <br> salad</span>
+                    <img class="shop-item-image" src="image/beef.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">270 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Beef<br>Burger</span>
+                    <img class="shop-item-image" src="image/beefburger.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">300 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Tuna<br>pasta</span>
+                    <img class="shop-item-image" src="image/Tuna pasta.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">140 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Potato<br>gnocchi</span>
+                    <img class="shop-item-image" src="image/potato.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">100 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken<br>curry</span>
+                    <img class="shop-item-image" src="image/Chicken curry.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">360 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Mushroom<br>Risotto</span>
+                    <img class="shop-item-image" src="image/Mushroom risotto.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">130 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Fish<br>tacos</span>
+                    <img class="shop-item-image" src="image/Fish tacos.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="container content-section" id="di" >
+            <p id="cana">nahom</p>
+            <h2 class="section-header shop-item" >Dinner<hr></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title ">Pasta</span>
+                    <img class="shop-item-image" src="image/pasta.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">100 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+               
+                <div class="shop-item">
+                    <span class="shop-item-title ">Fish <br> with rice</span>
+                    <img class="shop-item-image" src="image/ricefish.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+               
+                <div class="shop-item">
+                    <span class="shop-item-title">Prawn<br>Sandwitch</span>
+                    <img class="shop-item-image" src="image/prawn.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">150 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Pizza</span>
+                    <img class="shop-item-image" src="image/pizza.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">160 ETB</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <hr>
+              <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title ">Rice</span>
+                    <img class="shop-item-image" src="image/rice.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">210 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title ">Hamburger</span>
+                    <img class="shop-item-image" src="image/Hamburger.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">150 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title ">Croissant</span>
+                    <img class="shop-item-image" src="image/Croissant.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">120 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title ">Tacos</span>
+                    <img class="shop-item-image" src="image/tacos.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title ">Poutine</span>
+                    <img class="shop-item-image" src="image/poutine.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">180 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title ">Steak <br>with chips</span>
+                    <img class="shop-item-image" src="image/steak2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">200 ETB</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                        
+                     
+                    </div>
+                    <hr>
+                        <br>
+                </div>
+                
+            </div>
+        </section>
+   
+ 
+<script>
+        function myFunction() {
+          var x = document.getElementById("cat-on");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        </script>
+
+       
+       
+    </body>
+</html>
+
+
+

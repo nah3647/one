@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lobster&display=swap');
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    background-color: rgb(241, 226, 226);
+  display: block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: block;
+    
+}
+
+
+.ali{
+    padding: 10px;
+    font-size: 500%;
+    border-bottom:1px solid black ;
+    margin: 5px;}
+ a{
+        text-decoration: none;
+        font-family: 'Lobster', cursive;
+      }
+ a:hover{
+        color:  black;
+        background-color: rgb(53, 156, 156);
+      
+      }
+      @-webkit-keyframes ali {
+        0% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+        50% {
+          -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+        }
+        100% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+      }
+      @keyframes ali {
+        0% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+        50% {
+          -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+        }
+        100% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+      }
+      @-webkit-keyframes ali {
+        100% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+      }
+      @keyframes ali {
+        100% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+      }
+      .ali {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      }
+      .ali:hover, .ali:focus, .ali:active {
+        -webkit-animation-name: hang-on-hover-sink, hang-on-hover;
+        animation-name: hang-on-hover-sink, hang-on-hover;
+        -webkit-animation-duration: .3s, 1.5s;
+        animation-duration: .3s, 1.5s;
+        -webkit-animation-delay: 0s, .3s;
+        animation-delay: 0s, .3s;
+        -webkit-animation-timing-function: ease-out, ease-in-out;
+        animation-timing-function: ease-out, ease-in-out;
+        -webkit-animation-iteration-count: 1, infinite;
+        animation-iteration-count: 1, infinite;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-direction: normal, alternate;
+        animation-direction: normal, alternate;
+      }
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+   
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+  
+  
+}
+
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 30px;
+
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.shop-item {
+    margin-bottom:100px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 3.5em;
+    color: rgb(27, 28, 75);
+    margin-bottom:  0%;
+    padding-bottom: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lobster', cursive;
+
+  
+}
+
+.shop-item-image {
+    height: 15%;
+    width: 25%;
+    
+    border-radius: 50%;
+    padding-left: 0%;
+      margin-bottom: 30px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.shop-item-price {
+    flex-grow: 0.3;
+    color:rgb(29, 21, 1);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.shop-items {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 0.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+
+}
+
+.cart-item {
+    width: 80%;
+}
+
+.cart-price {
+    width: 80%;
+    font-size: 2.3em;
+    color: #333;
+    padding-left: 2em;
+}
+
+.cart-quantity {
+    width: 80%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 2.5em;
+}
+
+.cart-item-image {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 80;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 2.5em;
+    margin-right: 10px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 2.5em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.section-header{
+align-items: center;
+text-align: center;
+padding-bottom: 7%;
+font-family: 'Cormorant Garamond', serif;
+color:green;
+font-family: 'Lobster', cursive;
+font-style: italic;
+font-weight: 50;
+font-size: 55px;
+margin-top: 150px;
+
+}
+.is-hidden { display: none; }
+.amenu{
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+}
+.search{
+    align-items: center;
+    text-align: center;
+    padding-bottom:27px;
+    padding-top: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lobster', cursive;
+    display: flex;
+  
+}
+.input-mb-5{
+   font-size: 250%;
+   border:inset 7px lightslategray ;
+   background-color: lightgoldenrodyellow;
+   padding-left: 2%;
+ margin-left: 2%;
+  
+  
+
+}
+h1{
+    font-size:150px;
+    visibility: none;
+  
+   
+}
+.is-size-5{
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+
+    font-family: 'Lobster', cursive;
+    color: lightslategray;
+    padding-left: 13%;
+    margin-right: 0%;
+
+}
+.toppart{
+    overflow:hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+
+   
+
+}
+#cart-off{
+   align-items: right;
+   width: 80px;
+   height: 80px;
+   margin-left: 50%;
+  
+}
+.fa{
+    font-size: 80px;
+    display: flex;
+    text-align: right;
+    color:rgb(13, 13, 114);
+  
+    
+
+}
+#cat-on{
+    margin-top: 50%;
+}
+#cana{
+ font-size: 200px;
+ visibility: hidden;
+ margin: 0px;
+ padding: 0px;
+ overflow: visible;
+}
+#nano{
+    font-size: 0px;;
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+}
+#bf{
+    margin-top: 0%;
+    padding-top: 0%;
+}
